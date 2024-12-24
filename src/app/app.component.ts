@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { LazyComponent } from './lazy/lazy.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [LazyComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
